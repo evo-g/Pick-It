@@ -1,9 +1,9 @@
 function AddForm({ handleSubmit, setName, name }) {
 
   return (
-    <form onSubmit={handleSubmit} className='my-5'>
+    <form onSubmit={handleSubmit} className='flex flex-col items-center my-5'>
       <div>
-        <label className='pr-5'>Enter Choice</label>
+        <label className='font-bold block text-center'>Enter Choice</label>
         <input
           name='name'
           type='text'
